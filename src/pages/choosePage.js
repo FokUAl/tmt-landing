@@ -4,9 +4,9 @@ import Button from '../components/button';
 
 const Choose = () => {
   return (
-    <section className="flex flex-col w-full">
+    <section className="flex flex-col w-full" id="choose">
       <div className="2xl:w-1/3 xl:w-1/3 md:w-1/3 sm:w-1/2 w-3/4 flex flex-col mx-auto">
-        <h4 className="2xl:text-6xl xl:text-5xl md:text-4xl sm:text-4xl text-4xl font-bold leading-snug text-center text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">
+        <h4 className="2xl:text-6xl xl:text-5xl md:text-4xl sm:text-4xl text-4xl font-bold leading-snug text-center text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd mb-4">
           Почему стоит
           <br />
           выбрать нас?

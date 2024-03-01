@@ -12,6 +12,7 @@ module.exports = {
         'black': '#000000',
         'grey': '#151515',
         'text-grey': '#BFBFBF',
+        'link-hover': '#DADDDB'
       },
       extend: {
         gridTemplateColumns: {

@@ -6,7 +6,7 @@ import Button from '../components/button'
 const AboutFirst = () => {
 
     return (
-        <header className="pt-32">
+        <header className="pt-32" id="about_us">
             <div className="grid lg:grid-cols-2 md:grid-cols-3/1 sm:grid-cols-3/1 grid-cols-3/1">
                 <div className="w-5/6 flex flex-col justify-center lg:mx-16 md:mx-8 sm:mx-4 mx-4 lg:pr-24">
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd lg:text-7xl sm:text-xl text-3xl lg:mb-8 mb-2 font-bold">Профит<br/>без границ!</h1>

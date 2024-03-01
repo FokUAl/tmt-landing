@@ -3,7 +3,7 @@ import AboutFirst from './pages/aboutFirst'
 import AboutHero from './pages/aboutHero'
 import AboutHeroTwo from './pages/aboutHeroTwo';
 import AboutEnd from './pages/aboutEnd'
-import Choose from './pages/choose'
+import ChoosePage from './pages/choosePage'
 import LinksPage from './pages/linksPage'
 import './App.scss';
 
@@ -15,7 +15,7 @@ function App() {
         <AboutHero />
         <AboutHeroTwo />
         <AboutEnd />
-        <Choose />
+        <ChoosePage />
         <LinksPage />
     </main>
   );
