@@ -14,9 +14,21 @@ const Choose = () => {
         <Line />
       </div>
       <div className="p-16 grid 2xl:grid-cols-3 xl:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12">
-        <Card title="Честность и прозрачность" text="Мы предоставляем честные условия сотрудничества и полную прозрачность во всех операциях - для нас очень важна лояльная и дружественная атмосфера с нашими партнерами!" />
+        {/* <Card title="Честность и прозрачность" text="Мы предоставляем честные условия сотрудничества и полную прозрачность во всех операциях - для нас очень важна лояльная и дружественная атмосфера с нашими партнерами!" />
         <Card title="Инновации и технологии" text="Мы на шаг впереди, всегда следуем за последними трендами в мире арбитража. Современные инструменты помогут вам максимизировать ваш доход вместе с нами!" />
-        <Card title="Опыт и Репутация" text="Мы - команда профессионалов, имеющая опыт в IGaming индустрии, с помощью которого мы поможем вам достигнуть высоких результатов!" />
+        <Card title="Опыт и Репутация" text="Мы - команда профессионалов, имеющая опыт в IGaming индустрии, с помощью которого мы поможем вам достигнуть высоких результатов!" /> */}
+        <div className="border-greenEnd rounded-2xl border-[1px] py-8 px-4">
+          <h5 className="2xl:text-2xl xl:text-xl md:text-lg sm:text-lg text-lg font-bold text-center h-fit mx-auto md:mb-4 sm:mb-2 mb-2 text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">Честность и<br />прозрачность</h5>
+          <p className="text-text-grey text-center">Мы предоставляем честные условия сотрудничества и полную прозрачность во всех операциях - для нас очень важна лояльная и дружественная атмосфера с нашими партнерами!</p>
+        </div>
+        <div className="border-greenEnd rounded-2xl border-[1px] py-8 px-4">
+          <h5 className="2xl:text-2xl xl:text-xl md:text-lg sm:text-lg text-lg font-bold text-center h-fit mx-auto md:mb-4 sm:mb-2 mb-2 text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">Инновации и<br />технологии</h5>
+          <p className="text-text-grey text-center">Мы на шаг впереди, всегда следуем за последними трендами в мире арбитража. Современные инструменты помогут вам максимизировать ваш доход вместе с нами!</p>
+        </div>
+        <div className="border-greenEnd rounded-2xl border-[1px] py-8 px-4">
+          <h5 className="2xl:text-2xl xl:text-xl md:text-lg sm:text-lg text-lg font-bold text-center h-fit mx-auto md:mb-4 sm:mb-2 mb-2 text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">Опыт и<br />Репутация</h5>
+          <p className="text-text-grey text-center">Мы - команда профессионалов, имеющая опыт в IGaming индустрии, с помощью которого мы поможем вам достигнуть высоких результатов!</p>
+        </div>
       </div>
       <div className="mx-auto">
         <Button text="Присоединиться" />

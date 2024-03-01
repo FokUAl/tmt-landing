@@ -9,7 +9,7 @@ const AboutHero = () => {
         <div className="grid grid-cols-1/3">
           <img src={ObjectCenterSm} />
           <div className="mr-2">
-            <h2 className="text-4xl font-bold leading-snug text-end text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">
+            <h2 className="sm:text-4xl text-3xl font-bold leading-snug text-end text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">
               Получай
               <br />
               Отливай
@@ -28,7 +28,7 @@ const AboutHero = () => {
       ) : (
         <div className="grid grid-cols-2 lg:mx-16 md:mx-8 mx-8 gap-12">
           <div>
-            <h2 className="lg:text-7xl text-5xl font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">
+            <h2 className="lg:text-6xl text-4xl font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">
               Получай
               <br />
               Отливай
