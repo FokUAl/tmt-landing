@@ -4,6 +4,9 @@ import Line from '../components/line'
 import Button from '../components/button'
 
 const AboutFirst = () => {
+    const methodDoesNotExist = () => {
+
+    }
 
     return (
         <header className="pt-32" id="about_us">
