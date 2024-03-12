@@ -5,7 +5,7 @@ import LineS from '../static/images/lineS.svg';
 
 const AboutEnd = () => {
   return (
-    <section className="2xl:h-[200vh] xl:h-[200vh] md:h-[200vh] sm:h-[150vh] h-[150vh] relative lg:mt-48">
+    <section id="trust" className="2xl:h-[200vh] xl:h-[200vh] md:h-[200vh] sm:h-[150vh] h-[150vh] relative lg:mt-48">
       <div
         className="relative h-[1103px] bg-no-repeat bg-center 2xl:bg-cover xl:bg-cover md:bg-cover sm:bg-cover bg-cover"
         style={{

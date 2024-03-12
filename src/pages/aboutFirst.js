@@ -21,8 +21,8 @@ const AboutFirst = () => {
                 </div>
                 <div className="lg:mr-16 ">
                     <picture>
-                        <source media="(max-width: 900px)" srcSet={objectFirstSm} className="float-right" alt="object-first" />
-                        <img src={objectFirst} className="float-right" alt="object-first" />
+                        <source media="(max-width: 900px)" srcSet={objectFirstSm} className="float-right" alt="object-decoration" />
+                        <img src={objectFirst} className="float-right" alt="object-decoration" />
                     </picture>
                 </div>
             </div>

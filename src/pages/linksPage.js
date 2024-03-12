@@ -4,7 +4,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const LinksPage = () => {
     return (
-        <section className="flex justify-center min-h-[50vh]" id="trust">
+        <section className="flex justify-center min-h-[50vh]">
             <div className="flex flex-col justify-center">
                 <p className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-greenStart to-greenEnd">Если у вас<br />остались вопросы</p>
                 <p className="mt-8 text-center">Мы всегда рады ответить на них!<br />Свяжитесь с нами удобным<br/>для вас способом:</p>
